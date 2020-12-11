@@ -6,7 +6,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 
-import { Body3Component } from './components/body3/body3.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,6 @@ import { Body3Component } from './components/body3/body3.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    Body3Component
   ],
   imports: [
     BrowserModule
